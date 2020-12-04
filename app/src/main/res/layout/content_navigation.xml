@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sample_background"
+    tools:context=".NavigationDrawer.NavigationActivity">
+    <FrameLayout
+        android:id="@+id/frame_student"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:backgroundTint="#83DBDBDB"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="15dp"
+        app:menu="@menu/app_bar_menu"
+        app:navigationIcon="@drawable/ic_menu_new">
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/student_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_dashboard"
+        app:backgroundTint="#58B1FF"
+        app:layout_anchor="@id/bottom_app_bar"
+        app:maxImageSize="35dp"
+        app:tint="#FFFFFF"
+        android:tint="#FFFFFF"
+
+        />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

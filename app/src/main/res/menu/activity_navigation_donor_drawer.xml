@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/generate_challan"
+            android:icon="@drawable/ic_generate_challan"
+            android:title="Generate Challan" />
+        <item
+            android:id="@+id/pending_payment"
+            android:icon="@drawable/ic_pending_payment"
+            android:title="Pending Payment" />
+        <item
+            android:id="@+id/all_payments_menu"
+            android:icon="@drawable/ic_all_payment"
+            android:title="All Payments" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/logout_donor"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

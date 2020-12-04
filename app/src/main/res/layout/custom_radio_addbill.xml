@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/select_type_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background= "@drawable/textview_round_for_dialog"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="13dp"
+        android:text="Please Select"
+        android:textColor="#E4E4E4"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:orientation="vertical"></RadioGroup>
+</LinearLayout>

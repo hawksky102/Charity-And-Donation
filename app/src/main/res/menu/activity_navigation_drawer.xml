@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/apply_student"
+            android:icon="@drawable/ic_menu_submit"
+            android:title="Apply For Donation" />
+        <item
+            android:id="@+id/accepted_student"
+            android:icon="@drawable/ic_menu_accept"
+            android:title="Accepted Donations" />
+        <item
+            android:id="@+id/pending_student"
+            android:icon="@drawable/ic_menu_pending"
+            android:title="Pending Donations" />
+        <item
+            android:id="@+id/rejected_student"
+            android:icon="@drawable/ic_menu_reject"
+            android:title="Rejected Donations" />
+        <item
+            android:id="@+id/nav_tools2"
+            android:icon="@drawable/ic_settings_black"
+            android:title="Settings" />
+    </group>
+    <item android:title="Exit">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_add"
+                    android:icon="@drawable/ic_menu_logout"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+</menu>
